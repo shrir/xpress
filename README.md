@@ -1,4 +1,4 @@
-# xpress - Serializable expressions and evaluator
+# xpress - Build expressions, serialize them as JSON, and evaluate them in Python
 
 xpress is inspired by JsonLogic but aims to terser at the cost of reduced features. It ONLY supports logical operators.
 
@@ -8,9 +8,9 @@ xpress follows similar principles as JsonLogic
 
 1. Terse(er).
 2. Readable. As close to infix expressions as possible
-2. Consistent. 3-tuples expressions ["operand", "operator", "operand"] joined by `AND`s and/or `OR`s 
-3. Secure. We never `eval()`
-4. Flexible. Easy to add new operators, easy to build complex structures
+3. Consistent. 3-tuple expressions `["operand", "operator", "operand"]` joined by `AND` and/or `OR` 
+4. Secure. We never `eval()`
+5. Flexible. Easy to add new operators, easy to build complex structures
 
 ## Limitations
 
@@ -98,3 +98,4 @@ xpress.evaluate(False, i_wasnt_even_supposed_to_be_here)
 
 ### String Operators
 - `in`
+
