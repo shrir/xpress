@@ -17,14 +17,15 @@ with open(path.join(here, 'README.md'), encoding='utf-8') as f:
     long_description = f.read()
 
 setup(
-    name='xpress',
-    version='0.1.0-alpha',
+    name='xpression',
+    version='0.1.0',
     description='Build expressions, serialize them as JSON, and evaluate them in Python',
     long_description=long_description,
+    long_description_content_type='text/markdown',
     # The project's main homepage.
     url='https://github.com/shrir/xpress',
     author='shrir',
-    author_email='shrir',
+    author_email='s@b.com',
     license='MIT',
     classifiers=[
         'Development Status :: 4 - Beta',
