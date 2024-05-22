@@ -53,8 +53,8 @@ Obviously these rules aren’t very interesting if they can only take static lit
 
 ```python
 rules = [["var:temp", "<", 110], "and", ["var:pie.filling", "==", "apple"]]
-data = { "temp" : 100, "pie" : { "filling" : "apple" } };
-xpress.evaluate(rules, data);
+data = { "temp" : 100, "pie" : { "filling" : "apple" } }
+xpress.evaluate(rules, data)
 # True
 ```
 
