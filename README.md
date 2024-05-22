@@ -1,4 +1,4 @@
-# xpress - Build expressions, serialize them as JSON, and evaluate them in Python
+# xpress - Build infix expressions, serialize them as JSON, and evaluate them in Python
 
 xpress is inspired by JsonLogic but aims to be terser at the cost of reduced features. It ONLY supports logical operators.
 
